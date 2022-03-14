@@ -68,6 +68,7 @@ namespace ContaCorrente.ConsoleApp
                 movimentacao.valor = valor;
                 AddMovimentacao(movimentacao);
                 saldo -= valor;
+                contaDestino.saldo += valor;
                 apresentaMensagem("Trânsferencia realizada com suceeso", ConsoleColor.Green);
             }
 
