@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ContaCorrente.ConsoleApp
+﻿namespace ContaCorrente.ConsoleApp
 {
         public class Movimentacao
         {
